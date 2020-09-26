@@ -4,7 +4,7 @@
  "version": "1.0",
  "description": "Extension to render chat in EarthLang font.",
  "short_name": "Earthlang Chat",
- "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+ "permissions": ["https://webchat.freenode.net/*"],
  "web_accessible_resources": ["fonts/*.*"],
  "content_scripts": [
    {
